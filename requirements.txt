@@ -5,7 +5,6 @@ faiss-cpu
 python-dotenv
 streamlit
 
-#tts 관련 설치
 SpeechRecognition
 pyaudio
 pyttsx3

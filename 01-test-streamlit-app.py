@@ -1,5 +1,5 @@
 # pip install -r requirements.txt
-# streamlit run test-streamlit-app.py
+# streamlit run 01-test-streamlit-app.py
 
 import os
 import streamlit as st
@@ -279,20 +279,20 @@ def display_chat_message(role, message):
     st.markdown('<div style="clear: both;"></div>', unsafe_allow_html=True)
 
 ####### 더미 질문/응답 데이터 ########
-# 사용자 입력 처리 함수
-# def process_user_input(query, vector_store):
-#     # 질문이 없을 경우 더미 질문을 사용
-#     if not query:
-#         query = "더미 질문입니다. 이 질문은 UI 테스트용입니다."
+#사용자 입력 처리 함수
+def process_user_input(query, vector_store):
+    # 질문이 없을 경우 더미 질문을 사용
+    if not query:
+        query = "더미 질문입니다. 이 질문은 UI 테스트용입니다."
 
-#     # 더미 응답 데이터를 세션 상태에 저장
-#     st.session_state["response"] = "더미 응답입니다. 이 응답은 UI 테스트용입니다. 요리법은 천차만별로 맛이 없을 수도 있습니다."
+    # 더미 응답 데이터를 세션 상태에 저장
+    st.session_state["response"] = "더미 응답입니다. 이 응답은 UI 테스트용입니다. 요리법은 천차만별로 맛이 없을 수도 있습니다."
 
-#     # 사용자 메시지 표시
-#     display_chat_message("user", query)
+    # 사용자 메시지 표시
+    display_chat_message("user", query)
 
-#     # AI 응답 메시지 표시
-#     display_chat_message("assistant", st.session_state["response"])
+    # AI 응답 메시지 표시
+    display_chat_message("assistant", st.session_state["response"])
 ##################
 
 # 질문 처리 버튼과 음성 듣기 버튼을 같은 행에 배치
