@@ -1,5 +1,6 @@
 # pip install -r requirements.txt
 # streamlit run 03-test-streamlit-app.py
+# 챗 히스토리 + 각 답변받기 + 말풍선 구현
 
 import os
 import streamlit as st

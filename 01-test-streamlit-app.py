@@ -1,5 +1,6 @@
 # pip install -r requirements.txt
 # streamlit run 01-test-streamlit-app.py
+# streamlit css 및 tts/stt 연결
 
 import os
 import streamlit as st
