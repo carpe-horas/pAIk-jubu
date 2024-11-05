@@ -48,7 +48,7 @@
   - **Embedding 모델**: text-embedding-ada-002, text-embedding-3-small, mxbei-mxbai-embed-large 등 사용.
   - **Vector DB**: FAISS.
   
-## 프론트엔드 구현
+### 프론트엔드 구현
 - **Frontend**: Streamlit을 활용해 기본 챗 인터페이스 및 RAG 기능 구현.
 - **챗 메모리 기능 추가**: 자연스러운 대화 유도.
 - **STT/TTS 기능 추가**: 음성을 통한 조리법 안내 제공.
