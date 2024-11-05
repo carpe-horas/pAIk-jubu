@@ -4,8 +4,8 @@
 사용자의 요청에 맞춰 적절한 음식을 추천하고 레시피를 안내하는 챗봇 프로젝트입니다. 이 챗봇은 LLM(대형 언어 모델) 튜닝을 통해 사용자의 요구에 맞춘 응답을 제공하며, 다양한 데이터 소스를 활용하여 레시피와 요리 정보를 제공합니다.
 
 <div style="display: flex; gap: 10px;">
-   <img src="./images/recipe_1.JPG" width="350">
    <img src="./images/recipe_2.JPG" width="350">
+   <img src="./images/recipe_1.JPG" width="350">
    <img src="./images/recipe_3.JPG" width="300">
 </div> 
 
