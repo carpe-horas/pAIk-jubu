@@ -110,6 +110,8 @@ def process_user_input(query, vector_store):
         callback_manager=CallbackManager([StreamingStdOutCallbackHandler()]),
     )
     
+    
+
     # Retriever를 사용하여 문맥(context) 에서 질문(question) 을 찾습니다.
     retriever = vector_store.as_retriever()
     
