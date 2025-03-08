@@ -55,6 +55,10 @@
 - **챗 메모리 기능 추가**: 자연스러운 대화 유도.
 - **STT/TTS 기능 추가**: 음성을 통한 조리법 안내 제공.
 - **라이브러리 변경**: pyttsx3에서 gTTS와 SpeechRecognition으로 전환하여 자연스러운 음성 구현.
+
+### 아키텍처
+![architecture](img/model-architecture.jpg)  
+
   
 ## 프로젝트 의의 & 개선안
 
